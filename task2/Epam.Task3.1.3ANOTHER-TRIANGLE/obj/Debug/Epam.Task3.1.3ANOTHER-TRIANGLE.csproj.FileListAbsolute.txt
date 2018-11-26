@@ -1,0 +1,7 @@
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task3.1.3ANOTHER-TRIANGLE\bin\Debug\Epam.Task3.1.3ANOTHER-TRIANGLE.exe.config
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task3.1.3ANOTHER-TRIANGLE\bin\Debug\Epam.Task3.1.3ANOTHER-TRIANGLE.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task3.1.3ANOTHER-TRIANGLE\bin\Debug\Epam.Task3.1.3ANOTHER-TRIANGLE.pdb
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task3.1.3ANOTHER-TRIANGLE\obj\Debug\Epam.Task3.1.3ANOTHER-TRIANGLE.csprojAssemblyReference.cache
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task3.1.3ANOTHER-TRIANGLE\obj\Debug\Epam.Task3.1.3ANOTHER-TRIANGLE.csproj.CoreCompileInputs.cache
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task3.1.3ANOTHER-TRIANGLE\obj\Debug\Epam.Task3.1.3ANOTHER-TRIANGLE.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task3.1.3ANOTHER-TRIANGLE\obj\Debug\Epam.Task3.1.3ANOTHER-TRIANGLE.pdb

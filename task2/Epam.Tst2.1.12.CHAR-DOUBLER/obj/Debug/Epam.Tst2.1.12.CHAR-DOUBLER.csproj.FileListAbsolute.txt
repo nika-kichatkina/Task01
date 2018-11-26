@@ -1,0 +1,7 @@
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tst2.1.12.CHAR-DOUBLER\bin\Debug\Epam.Tst2.1.12.CHAR-DOUBLER.exe.config
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tst2.1.12.CHAR-DOUBLER\bin\Debug\Epam.Tst2.1.12.CHAR-DOUBLER.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tst2.1.12.CHAR-DOUBLER\bin\Debug\Epam.Tst2.1.12.CHAR-DOUBLER.pdb
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tst2.1.12.CHAR-DOUBLER\obj\Debug\Epam.Tst2.1.12.CHAR-DOUBLER.csprojAssemblyReference.cache
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tst2.1.12.CHAR-DOUBLER\obj\Debug\Epam.Tst2.1.12.CHAR-DOUBLER.csproj.CoreCompileInputs.cache
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tst2.1.12.CHAR-DOUBLER\obj\Debug\Epam.Tst2.1.12.CHAR-DOUBLER.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tst2.1.12.CHAR-DOUBLER\obj\Debug\Epam.Tst2.1.12.CHAR-DOUBLER.pdb

@@ -1,0 +1,7 @@
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task1.1.8.NO-POSITIVE\obj\Debug\Epam.Task1.1.8.NO-POSITIVE.csprojAssemblyReference.cache
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task1.1.8.NO-POSITIVE\obj\Debug\Epam.Task1.1.8.NO-POSITIVE.csproj.CoreCompileInputs.cache
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task1.1.8.NO-POSITIVE\bin\Debug\Epam.Task1.1.8.NO-POSITIVE.exe.config
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task1.1.8.NO-POSITIVE\bin\Debug\Epam.Task1.1.8.NO-POSITIVE.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task1.1.8.NO-POSITIVE\bin\Debug\Epam.Task1.1.8.NO-POSITIVE.pdb
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task1.1.8.NO-POSITIVE\obj\Debug\Epam.Task1.1.8.NO-POSITIVE.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task1.1.8.NO-POSITIVE\obj\Debug\Epam.Task1.1.8.NO-POSITIVE.pdb

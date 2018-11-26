@@ -1,0 +1,6 @@
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tast2.X-MAS-TREE\bin\Debug\Epam.Tast2.X-MAS-TREE.exe.config
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tast2.X-MAS-TREE\bin\Debug\Epam.Tast2.X-MAS-TREE.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tast2.X-MAS-TREE\bin\Debug\Epam.Tast2.X-MAS-TREE.pdb
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tast2.X-MAS-TREE\obj\Debug\Epam.Tast2.X-MAS-TREE.csproj.CoreCompileInputs.cache
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tast2.X-MAS-TREE\obj\Debug\Epam.Tast2.X-MAS-TREE.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tast2.X-MAS-TREE\obj\Debug\Epam.Tast2.X-MAS-TREE.pdb

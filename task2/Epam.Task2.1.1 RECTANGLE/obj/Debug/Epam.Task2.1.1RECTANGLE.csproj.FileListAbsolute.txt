@@ -1,0 +1,7 @@
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.1 RECTANGLE\bin\Debug\Epam.Task2.1.1 RECTANGLE.exe.config
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.1 RECTANGLE\bin\Debug\Epam.Task2.1.1 RECTANGLE.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.1 RECTANGLE\bin\Debug\Epam.Task2.1.1 RECTANGLE.pdb
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.1 RECTANGLE\obj\Debug\Epam.Task2.1.1RECTANGLE.csprojAssemblyReference.cache
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.1 RECTANGLE\obj\Debug\Epam.Task2.1.1RECTANGLE.csproj.CoreCompileInputs.cache
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.1 RECTANGLE\obj\Debug\Epam.Task2.1.1 RECTANGLE.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.1 RECTANGLE\obj\Debug\Epam.Task2.1.1 RECTANGLE.pdb

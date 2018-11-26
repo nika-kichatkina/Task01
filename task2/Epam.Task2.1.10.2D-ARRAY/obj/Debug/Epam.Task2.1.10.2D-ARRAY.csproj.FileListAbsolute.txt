@@ -1,0 +1,6 @@
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.10.2D-ARRAY\bin\Debug\Epam.Task2.1.10.2D-ARRAY.exe.config
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.10.2D-ARRAY\bin\Debug\Epam.Task2.1.10.2D-ARRAY.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.10.2D-ARRAY\bin\Debug\Epam.Task2.1.10.2D-ARRAY.pdb
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.10.2D-ARRAY\obj\Debug\Epam.Task2.1.10.2D-ARRAY.csproj.CoreCompileInputs.cache
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.10.2D-ARRAY\obj\Debug\Epam.Task2.1.10.2D-ARRAY.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.10.2D-ARRAY\obj\Debug\Epam.Task2.1.10.2D-ARRAY.pdb

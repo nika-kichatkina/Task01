@@ -1,0 +1,7 @@
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.7.ARRAY-PROCESSING\bin\Debug\Epam.Task2.1.7.ARRAY-PROCESSING.exe.config
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.7.ARRAY-PROCESSING\bin\Debug\Epam.Task2.1.7.ARRAY-PROCESSING.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.7.ARRAY-PROCESSING\bin\Debug\Epam.Task2.1.7.ARRAY-PROCESSING.pdb
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.7.ARRAY-PROCESSING\obj\Debug\Epam.Task2.1.7.ARRAY-PROCESSING.csprojAssemblyReference.cache
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.7.ARRAY-PROCESSING\obj\Debug\Epam.Task2.1.7.ARRAY-PROCESSING.csproj.CoreCompileInputs.cache
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.7.ARRAY-PROCESSING\obj\Debug\Epam.Task2.1.7.ARRAY-PROCESSING.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Task2.1.7.ARRAY-PROCESSING\obj\Debug\Epam.Task2.1.7.ARRAY-PROCESSING.pdb

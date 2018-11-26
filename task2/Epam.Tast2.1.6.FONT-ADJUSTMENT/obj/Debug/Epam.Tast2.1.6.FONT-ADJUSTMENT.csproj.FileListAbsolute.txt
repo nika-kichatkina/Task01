@@ -1,0 +1,7 @@
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tast2.1.6.FONT-ADJUSTMENT\bin\Debug\Epam.Tast2.1.6.FONT-ADJUSTMENT.exe.config
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tast2.1.6.FONT-ADJUSTMENT\bin\Debug\Epam.Tast2.1.6.FONT-ADJUSTMENT.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tast2.1.6.FONT-ADJUSTMENT\bin\Debug\Epam.Tast2.1.6.FONT-ADJUSTMENT.pdb
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tast2.1.6.FONT-ADJUSTMENT\obj\Debug\Epam.Tast2.1.6.FONT-ADJUSTMENT.csprojAssemblyReference.cache
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tast2.1.6.FONT-ADJUSTMENT\obj\Debug\Epam.Tast2.1.6.FONT-ADJUSTMENT.csproj.CoreCompileInputs.cache
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tast2.1.6.FONT-ADJUSTMENT\obj\Debug\Epam.Tast2.1.6.FONT-ADJUSTMENT.exe
+C:\Users\Nika\source\repos\Epam.Task2\Epam.Tast2.1.6.FONT-ADJUSTMENT\obj\Debug\Epam.Tast2.1.6.FONT-ADJUSTMENT.pdb
