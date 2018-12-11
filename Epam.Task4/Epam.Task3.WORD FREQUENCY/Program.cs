@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace Epam.Task3.WORD_FREQUENCY
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            //Console.WriteLine("enter the string: ");
-            //string text = Console.ReadLine();
-
             string text = "asdf asdf zxcv sjdh sjJH sg THHJJ zxcv thhjj";
             text = text.ToUpper();
 
@@ -20,7 +17,6 @@ namespace Epam.Task3.WORD_FREQUENCY
 
             Dictionary<string, int> word = new Dictionary<string, int>();
 
-            
             for (int i = 0; i < textHERE.Length; i++)
             {
                 string currentWord = textHERE[i];
@@ -32,20 +28,19 @@ namespace Epam.Task3.WORD_FREQUENCY
                         isIt = true;
                     }
                 }
+
                 if (isIt)
                 {
                     word[currentWord]++;
                 }
                 else
-                    {
-                        word.Add(currentWord, 1);
-                    }
-                
+                {
+                    word.Add(currentWord, 1);
+                }
             }
 
             foreach (KeyValuePair<string, int> keyValue in word)
             {
-
                 Console.WriteLine(keyValue.Key + " - " + keyValue.Value);
             }
         }

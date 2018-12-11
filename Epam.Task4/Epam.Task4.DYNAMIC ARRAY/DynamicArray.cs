@@ -7,151 +7,178 @@ using System.Threading.Tasks;
 
 namespace Epam.Task4.DYNAMIC_ARRAY
 {
-   
-
     public class DynamicArray<T> : IEnumerable<T>
     {
-        T[] array;
-        //int Capacity;
-        //int Length;
+        private T[] array;
 
         public DynamicArray()
         {
-            Capacity = 8;
-            array = new T[Capacity];
-            Length = 0;
+            this.Capacity = 8;
+            this.array = new T[this.Capacity];
+            this.Length = 0;
         }
 
         public DynamicArray(int n)
         {
-            Capacity = n;
-            array = new T[Capacity];
-            Length = 0;
+            this.Capacity = n;
+            this.array = new T[this.Capacity];
+            this.Length = 0;
         }
 
         public DynamicArray(IEnumerable<T> collection)
         {
-            Capacity = collection.Count();
-            array = new T[Capacity];
-            Length = array.Length;
+            this.Capacity = collection.Count();
+            this.array = new T[this.Capacity];
+            this.Length = this.array.Length;
 
             int i = 0;
             foreach (var item in collection)
             {
-                array[i] = item;
+                this.array[i] = item;
                 i++;
+            }
+        }
+
+        public int Length
+        {
+            get;
+            private set;
+        }
+
+        public int Capacity
+        {
+            get;
+            private set;
+        }
+
+        public T this[int index]
+        {
+            get
+            {
+                return this.array[index];
+            }
+
+            set
+            {
+                if (index < 0 || index > this.Length)
+                {
+                    throw new ArgumentOutOfRangeException("Wrong index");
+                }
+
+                this.array[index] = value;
             }
         }
 
         public void Add(T elem)
         {
-            if (Capacity == Length)
+            if (this.Capacity == this.Length)
             {
-                Capacity *= 2;
-                T[] NewArray = new T[Capacity];
+                this.Capacity *= 2;
+                T[] newArray = new T[this.Capacity];
 
                 int i = 0;
-                foreach (var item in array)
+                foreach (var item in this.array)
                 {
-                    NewArray[i] = item;
+                    newArray[i] = item;
                     i++;
                 }
-                array = new T[Capacity];
-                array = NewArray;
 
+                this.array = new T[this.Capacity];
+                this.array = newArray;
             }
-            array[Length] = elem;
-            Length++;
+
+            this.array[this.Length] = elem;
+            this.Length++;
         }
 
         public void AddRange(IEnumerable<T> collection)
         {
-            Capacity = collection.Count() + Length;
-            T[] NewArray = new T[Capacity];
+            this.Capacity = collection.Count() + this.Length;
+            T[] newArray = new T[this.Capacity];
 
-            for (int i = 0; i < Length; i++)
+            for (int i = 0; i < this.Length; i++)
             {
-                NewArray[i] = array[i];
+                newArray[i] = this.array[i];
             }
-            
 
             foreach (var item in collection)
             {
-                NewArray[Length] = item;
-                Length++;
+                newArray[this.Length] = item;
+                this.Length++;
             }
 
-            array = new T[Capacity];
-            array = NewArray;
+            this.array = new T[this.Capacity];
+            this.array = newArray;
         }
 
-        public bool Remove(int iDel)
+        public bool Remove(int delI)
         {
-            if (iDel < 0 || iDel > Length)
+            if (delI < 0 || delI > this.Length)
             {
                 return false;
             }
 
-            T[] NewArray = new T[Length - 1];
-            for (int i = 0; i < iDel; i++)
+            T[] newArray = new T[this.Length - 1];
+            for (int i = 0; i < delI; i++)
             {
-                NewArray[i] = array[i];
+                newArray[i] = this.array[i];
             }
 
-            for (int i = iDel + 1, j = 0; i < Length; j++, i++)
+            for (int i = delI + 1, j = 0; i < this.Length; j++, i++)
             {
-                NewArray[iDel  + j] = array[i];
+                newArray[delI + j] = this.array[i];
             }
-            Length--;
-            array = NewArray;
+
+            this.Length--;
+            this.array = newArray;
             return true;
         }
 
-        public bool Insert(int iPaste, T elem)
+        public bool Insert(int pasteI, T elem)
         {
-            if (iPaste < 0 || iPaste > Length)
+            if (pasteI < 0 || pasteI > this.Length)
             {
                 return false;
             }
 
-
-            if (Capacity == Length)
+            if (this.Capacity == this.Length)
             {
-                T[] newArray = new T[Capacity];
-                newArray = array;
-                Capacity *= 2;
+                T[] newArray = new T[this.Capacity];
+                newArray = this.array;
+                this.Capacity *= 2;
 
-                array = new T[Capacity];
+                this.array = new T[this.Capacity];
                 for (int i = 0; i < newArray.Length; i++)
                 {
-                    array[i] = newArray[i];
+                    this.array[i] = newArray[i];
                 }
             }
 
-            T[] NewArray = new T[Capacity];
+            T[] newArray1 = new T[this.Capacity];
 
-            for (int i = 0; i < iPaste; i++)
+            for (int i = 0; i < pasteI; i++)
             {
-                NewArray[i] = array[i];
-            }
-            NewArray[iPaste] = elem;
-
-            for (int i = iPaste, j = 0; i < Length; j++, i++)
-            {
-                NewArray[(iPaste + 1) + j] = array[i];
+                newArray1[i] = this.array[i];
             }
 
-            Length++;
-            array = NewArray;
+            newArray1[pasteI] = elem;
+
+            for (int i = pasteI, j = 0; i < this.Length; j++, i++)
+            {
+                newArray1[(pasteI + 1) + j] = this.array[i];
+            }
+
+            this.Length++;
+            this.array = newArray1;
             return true;
         }
 
         public IEnumerator<T> GetEnumerator()
         {
             for (int i = 0; i < this.Length; i++)
-            
+
             {
-                yield return array[i];
+                yield return this.array[i];
             }
         }
 
@@ -159,37 +186,8 @@ namespace Epam.Task4.DYNAMIC_ARRAY
         {
             for (int i = 0; i < this.Length; i++)
             {
-                yield return array[i];
+                yield return this.array[i];
             }
         }
-
-        public int Length
-        {
-            private set;
-            get;
-        }
-
-
-        public int Capacity
-        {
-            private set;
-            get;
-        }
-
-        public T this[int index]
-        {
-            set {
-                if (index<0 || index>Length)
-                {
-                    throw new ArgumentOutOfRangeException("Wrong index");
-                }
-                array[index] = value;
-            }
-            get
-            {
-                return array[index];
-            }
-        }
-
     }
 }

@@ -6,38 +6,40 @@ using System.Threading.Tasks;
 
 namespace Epam.Task4.Lost
 {
-
-
     public class Program
     {
         public static void Main(string[] args)
         {
-
             Console.WriteLine("enter the number of people: ");
-            int N = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
 
-            var People = new List<int>(N);
+            var people = new List<int>(n);
 
-            for (int i = 0; i < N; i++)
+            for (int i = 0; i < n; i++)
             {
-                People.Add(i + 1);
+                people.Add(i + 1);
             }
 
-            GetPeople(People);
+            GetPeople(people);
 
             bool flag = false;
-            while (People.Count > 1)
+            while (people.Count > 1)
             {
-                for (int i = 0; i < People.Count; i++)
+                for (int i = 0; i < people.Count; i++)
                 {
-                    if (flag) People.RemoveAt(i--);
+                    if (flag)
+                    {
+                        people.RemoveAt(i--);
+                    }
+
                     flag = !flag;
                 }
-                GetPeople(People);
+
+                GetPeople(people);
             }
+
             Console.Read();
         }
-
 
         public static void GetPeople(List<int> list)
         {
@@ -45,6 +47,7 @@ namespace Epam.Task4.Lost
             {
                 Console.Write("{0} ", item);
             }
+
             Console.WriteLine();
         }
     }
