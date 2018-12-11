@@ -69,7 +69,11 @@ namespace Epam.Task4.DYNAMIC_ARRAY
             Capacity = collection.Count() + Length;
             T[] NewArray = new T[Capacity];
 
-            NewArray = array;
+            for (int i = 0; i < Length; i++)
+            {
+                NewArray[i] = array[i];
+            }
+            
 
             foreach (var item in collection)
             {
@@ -96,7 +100,7 @@ namespace Epam.Task4.DYNAMIC_ARRAY
 
             for (int i = iDel + 1, j = 0; i < Length; j++, i++)
             {
-                NewArray[(iDel + 1) + j] = array[i];
+                NewArray[iDel  + j] = array[i];
             }
             Length--;
             array = NewArray;
@@ -113,8 +117,15 @@ namespace Epam.Task4.DYNAMIC_ARRAY
 
             if (Capacity == Length)
             {
+                T[] newArray = new T[Capacity];
+                newArray = array;
                 Capacity *= 2;
+
                 array = new T[Capacity];
+                for (int i = 0; i < newArray.Length; i++)
+                {
+                    array[i] = newArray[i];
+                }
             }
 
             T[] NewArray = new T[Capacity];
@@ -125,7 +136,7 @@ namespace Epam.Task4.DYNAMIC_ARRAY
             }
             NewArray[iPaste] = elem;
 
-            for (int i = iPaste + 1, j = 0; i < Length; j++, i++)
+            for (int i = iPaste, j = 0; i < Length; j++, i++)
             {
                 NewArray[(iPaste + 1) + j] = array[i];
             }
@@ -137,7 +148,8 @@ namespace Epam.Task4.DYNAMIC_ARRAY
 
         public IEnumerator<T> GetEnumerator()
         {
-            for (int i=0; i<this.Length;i++)
+            for (int i = 0; i < this.Length; i++)
+            
             {
                 yield return array[i];
             }
@@ -153,28 +165,15 @@ namespace Epam.Task4.DYNAMIC_ARRAY
 
         public int Length
         {
-            private set {
-
-                this.Length = value;
-            }
-            get
-            {
-                return this.Length;
-            }
-
+            private set;
+            get;
         }
 
 
         public int Capacity
         {
-            private set
-            {
-                this.Length = value;
-            }
-            get
-            {
-                return this.Length;
-            }
+            private set;
+            get;
         }
 
         public T this[int index]
